@@ -11,6 +11,7 @@
 		FD15FEC9284057CB004D5F3F /* MedianOfSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15FEC8284057CB004D5F3F /* MedianOfSortedArrays.swift */; };
 		FD15FECC2840599D004D5F3F /* LongestSubStringWithOutRepeatingCharachters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15FECB2840599D004D5F3F /* LongestSubStringWithOutRepeatingCharachters.swift */; };
 		FD15FED128405A74004D5F3F /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15FED028405A74004D5F3F /* AddTwoNumbers.swift */; };
+		FD15FED528405B33004D5F3F /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15FED428405B33004D5F3F /* Two Sum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		FD15FEC8284057CB004D5F3F /* MedianOfSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfSortedArrays.swift; sourceTree = "<group>"; };
 		FD15FECB2840599D004D5F3F /* LongestSubStringWithOutRepeatingCharachters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubStringWithOutRepeatingCharachters.swift; sourceTree = "<group>"; };
 		FD15FED028405A74004D5F3F /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		FD15FED428405B33004D5F3F /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +66,20 @@
 			isa = PBXGroup;
 			children = (
 				FD15FEC028405784004D5F3F /* main.swift */,
+				FD15FED328405B1C004D5F3F /* 1. Two Sum */,
 				FD15FECE28405A5D004D5F3F /* 2.Add Two Numbers */,
-				FD15FEC728405792004D5F3F /* medianOfSortedArrays */,
 				FD15FECA2840597C004D5F3F /* 3. Longest Substring Without Repeating Characters */,
+				FD15FEC728405792004D5F3F /* 4. Median of Two Sorted Arrays */,
 			);
 			path = codingQuestions;
 			sourceTree = "<group>";
 		};
-		FD15FEC728405792004D5F3F /* medianOfSortedArrays */ = {
+		FD15FEC728405792004D5F3F /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXGroup;
 			children = (
 				FD15FEC8284057CB004D5F3F /* MedianOfSortedArrays.swift */,
 			);
-			path = medianOfSortedArrays;
+			path = "4. Median of Two Sorted Arrays";
 			sourceTree = "<group>";
 		};
 		FD15FECA2840597C004D5F3F /* 3. Longest Substring Without Repeating Characters */ = {
@@ -93,6 +96,14 @@
 				FD15FED028405A74004D5F3F /* AddTwoNumbers.swift */,
 			);
 			path = "2.Add Two Numbers";
+			sourceTree = "<group>";
+		};
+		FD15FED328405B1C004D5F3F /* 1. Two Sum */ = {
+			isa = PBXGroup;
+			children = (
+				FD15FED428405B33004D5F3F /* Two Sum.swift */,
+			);
+			path = "1. Two Sum";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD15FED528405B33004D5F3F /* Two Sum.swift in Sources */,
 				FD15FEC128405784004D5F3F /* main.swift in Sources */,
 				FD15FED128405A74004D5F3F /* AddTwoNumbers.swift in Sources */,
 				FD15FEC9284057CB004D5F3F /* MedianOfSortedArrays.swift in Sources */,
